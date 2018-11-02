@@ -44,7 +44,6 @@ img {
   -webkit-animation-duration: 10s;
 }
 
-/* 
 .gengar {
   bottom: 0;
   right: 0;
@@ -52,16 +51,18 @@ img {
   -webkit-animation: linear infinite alternate;
   -webkit-animation-name: run;
   -webkit-animation-duration: 10s;
-} */
+}
 
 @-webkit-keyframes run {
   0% {
     left: 0;
   }
   50% {
-    left: 70%;
+    left: 100vh - 500px;
   }
-  70% {
+  60% {
     left: 0;
   }
 }
+
+/* Do more research on webkit */
