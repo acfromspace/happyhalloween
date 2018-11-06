@@ -25,7 +25,7 @@ class index extends Component {
                 },
               },
             }}
-            url="https://www.youtube.com/watch?v=XQBwrsElVog"
+            url="https://www.youtube.com/watch?v=kXF3VYYa5TI"
             width="100%"
             height="100%"
             loop={true}

@@ -35,7 +35,7 @@ img {
 }
 
 .doggo {
-  top: 15%;
+  top: 25%;
   position: absolute;
   -webkit-animation: ease-out infinite alternate;
   -webkit-animation-name: doggo;
@@ -43,7 +43,7 @@ img {
 }
 
 .napstablook {
-  top: 5%;
+  top: 15%;
   position: absolute;
   -webkit-animation: ease-in-out infinite alternate;
   -webkit-animation-name: napstablook;
