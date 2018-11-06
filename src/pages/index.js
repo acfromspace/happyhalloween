@@ -1,7 +1,13 @@
 import React, { Component } from 'react'
 import ReactPlayer from 'react-player'
 
-import spooky from '../images/spooky.gif'
+// Images
+import metatron from '../images/metatron.gif'
+import doggo from '../images/doggo.gif'
+import napstablook from '../images/napstablook.png'
+import undertale from '../images/undertaleWHYSOCIRRUS.png'
+
+// Styling
 import '../components/style.css'
 
 class index extends Component {
@@ -26,9 +32,19 @@ class index extends Component {
             playing={true}
           />
         </div>
-        <img className="gastly" src={spooky} alt="spooky" />
-        <img className="haunter" src={spooky} alt="spooky" />
-        <img className="gengar" src={spooky} alt="spooky" />
+        <img
+          className="doggo"
+          src={doggo}
+          alt="doggo"
+          height="100px"
+          width="100px"
+        />
+        <img className="napstablook" src={napstablook} alt="napstablook" />
+        <img
+          className="undertale"
+          src={undertale}
+          alt="Art by (why so cirrus)"
+        />
       </div>
     )
   }

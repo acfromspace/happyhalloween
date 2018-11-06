@@ -13,56 +13,87 @@ html {
   left: 0;
 }
 
-/* .spooky {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  height: auto;
-} */
-
 img {
   max-width: 100%;
   height: auto;
   width: auto\9; /* ie8 */
 }
 
-.gastly {
-  bottom: 15%;
+.metatron {
+  top: 15%;
+  /* absolute - places the image "on top" of everything else */
   position: absolute;
+  /* linear - timing option with no sudden changes */
+  /* infinite - the animation repeats forever */
+  /* alternate - The animation reverses direction every cycle. 
+    On each odd cycle, the animation plays forward (0% to 100%). 
+    On each even cycle, the animation plays backwards (100% to 0%). */
   -webkit-animation: linear infinite alternate;
-  -webkit-animation-name: run;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-name: metatron;
+  /* how long the lifecycle of the animation should last */
+  -webkit-animation-duration: 5s;
 }
 
-.haunter {
-  bottom: 0;
-  left: 20px;
+.doggo {
+  top: 15%;
   position: absolute;
-  -webkit-animation: linear infinite alternate;
-  -webkit-animation-name: run;
-  -webkit-animation-duration: 10s;
+  -webkit-animation: ease-out infinite alternate;
+  -webkit-animation-name: doggo;
+  -webkit-animation-duration: 5s;
 }
 
-.gengar {
+.napstablook {
+  top: 5%;
+  position: absolute;
+  -webkit-animation: ease-in-out infinite alternate;
+  -webkit-animation-name: napstablook;
+  -webkit-animation-duration: 5s;
+}
+
+.undertale {
   bottom: 0;
   right: 0;
   position: absolute;
-  -webkit-animation: linear infinite alternate;
-  -webkit-animation-name: run;
-  -webkit-animation-duration: 10s;
 }
 
-@-webkit-keyframes run {
+/* Specify when the style change will happen in percent, or with the keywords "from" and "to"
+which is the same as 0% and 100%. 
+0% is the beginning of the animation, 100% is when the animation is complete. */
+@-webkit-keyframes metatron {
   0% {
-    left: 0;
+    left: 200px;
   }
   50% {
-    left: 100vh - 500px;
+    left: 500px;
   }
-  60% {
-    left: 0;
+  100% {
+    left: 200px;
   }
 }
 
-/* Do more research on webkit */
+@-webkit-keyframes doggo {
+  0% {
+    left: 300px;
+  }
+  50% {
+    left: 600px;
+  }
+  100% {
+    left: 300px;
+  }
+}
+
+@-webkit-keyframes napstablook {
+  0% {
+    left: 100px;
+    opacity: 0.5;
+  }
+  50% {
+    left: 400px;
+    opacity: 1;
+  }
+  100% {
+    left: 100px;
+    opacity: 0.5;
+  }
+}
