@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ReactPlayer from 'react-player'
 
 // Images
-import metatron from '../images/metatron.gif'
+// import metatron from '../images/metatron.gif'
 import doggo from '../images/doggo.gif'
 import napstablook from '../images/napstablook.png'
 import undertale from '../images/undertaleWHYSOCIRRUS.png'
