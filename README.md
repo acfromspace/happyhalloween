@@ -1,106 +1,45 @@
+<!-- HEADING -->
+
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
+  <img src="./avatar.png" width="60">
 </p>
-<h1 align="center">
-  Gatsby's default starter
-</h1>
+<h1 align="center">️happyhalloween</h1>
 
-Kick off your project with this default boilerplate. This barebones starter ships with the main Gatsby configuration files you might need. 
+<!-- DESCRIPTION -->
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+<!-- Kept at h3 to prevent line under the header -->
+<h3 align="center">
+  <span role="img" aria-label="Ghost">👻</span>
+</h3>
+<p align="center">
+  <strong>Gift for the trick-or-treaters!</strong><br>
+  Created with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby.js</a> in order to celebrate Halloween with my friends.
+</p>
 
-## 🚀 Quick start
+<!-- INFORMATION (Shields:IO) -->
 
-1.  **Install the Gatsby CLI.**
+<p align="center">
+    <!-- HEY DON'T FORGET TO FIX THE URLS -->
+    <a href="https://github.com/acfromspace/happyhalloween/blob/master/LICENSE">
+        <img src="https://img.shields.io/github/license/mashape/apistatus.svg"
+            alt="License: MIT"></a>
+    <a href="https://twitter.com/intent/follow?screen_name=acfromspace">
+        <img src="https://img.shields.io/twitter/follow/acfromspace.svg?style=social&logo=twitter"
+            alt="Follow @acfromspace"></a>
+</p>
 
-    The Gatsby CLI helps you create new sites using Gatsby starters (like this one!)
+<!-- FEATURES -->
 
-    ```sh
-    # install the Gatsby CLI globally
-    npm install -g gatsby-cli
-    ```
+![happyhalloween](https://user-images.githubusercontent.com/10361542/48293180-b4f12380-e432-11e8-877d-300e55a6ec02.gif)
 
-2.  **Create a Gatsby site.**
+[*happyhalloween*](https://happyhalloween.netlify.com) is a website with the following features:
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+- **Aesthetics.** A perfect treat, especially when you want to sleep.
+- **Art.** Top left moving figures Napstablook and the cute doggo made by [Toby Fox](https://twitter.com/tobyfox). Gorgeous UNDERTALE art at the bottom right is made by [why so cirrus](https://www.deviantart.com/why-so-cirrus).
+- **Music.** "Ghost duet" music video created by [Louie Zong](https://louiezong.com).
 
-    ```sh
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter
-    ```
+<!-- LICENSE -->
 
-3.  **Start developing.**
+## <span role="img" aria-label="Oncoming Police Car">🚔</span> [License](LICENSE)
 
-    Navigate into your new site’s directory and start it up.
-
-    ```sh
-    cd my-default-starter/
-    gatsby develop
-    ```
-
-4.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:8000`!
-    
-    *Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).*
-    
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-    
-## 🧐 What's inside?
-
-A quick look at the top-level files and directories you'll see in a Gatsby project.
-
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    ├── README.md
-    └── yarn.lock
-
-  1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.  
-  
-  2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
-  
-  3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
-  
-  4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
-  
-  5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
-  
-  6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
-  
-  7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
-  
-  8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-  
-  9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
-  
-  10.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-  
-  11.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-  
-  12.  **`README.md`**: A text file containing useful reference information about your project.
-  
-  13.  **`yarn.lock`**: [Yarn](https://yarnpkg.com/) is a package manager alternative to npm. You can use either yarn or npm, though all of the Gatsby docs reference npm.  This file serves essentially the same purpose as `package-lock.json`, just for a different package management system.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
--   **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
--   **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+The code in this project is under a specific open source license.
