@@ -27,9 +27,11 @@
 
 <!-- FEATURES -->
 
-![happyhalloween](https://user-images.githubusercontent.com/10361542/48293180-b4f12380-e432-11e8-877d-300e55a6ec02.gif)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/10361542/48293180-b4f12380-e432-11e8-877d-300e55a6ec02.gif">
+</p>
 
-[*happyhalloween*](https://happyhalloween.netlify.com) is a website with the following features:
+[_happyhalloween_](https://happyhalloween.netlify.com) is a website with the following features:
 
 - **Aesthetics.** A perfect treat, especially when you want to sleep.
 - **Art.** Top left moving figures Napstablook and the cute doggo made by [Toby Fox](https://twitter.com/tobyfox). Gorgeous UNDERTALE art at the bottom right is made by [why so cirrus](https://www.deviantart.com/why-so-cirrus).
